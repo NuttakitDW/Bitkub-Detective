@@ -50,8 +50,8 @@ for addr in address:
       print('-------------------------------------------')
   time.sleep(1)
 
-  for i in address:
-    print('Address: ', i)
-    print('Balance: ', recieve[i] - send[i])
-    print('-----------------------------------')
+for i in address:
+  print('Address: ', i)
+  print('Balance: ', recieve[i] - send[i])
+  print('-----------------------------------')
 
